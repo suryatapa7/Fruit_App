@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    margin-left: 30px;
+    font-family: "Lobster", sans-serif;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    margin-right: -35px;
+    border-radius: 60px;
+    font-family: "Rubik", sans-serif;
+    outline: none;
+    border: 2px solid rgb(245,24,90);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248,26,92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.main {
+    background: url("./images/veg-bg.jpg")no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 30% 30%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248,26,92); 
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    background-color: rgb(252, 115, 7);
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: -3px -2px 24px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px -2px 24px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px -2px 24px -2px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.apple {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("./images/bg2.jpg")no-repeat; 
+    background-size: cover; 
+    height: 80vh; 
+    width: 100%; 
+} 
+
+.apple h1 { 
+    font-family: 'Lobster', cursive; 
+}
+
+.news {
+    background-color: pink;
+    color: black;
+}
+
+
